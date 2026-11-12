@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Stamping Excellence Center</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI,sans-serif;
+}
+
+body{
+background:#071d33;
+color:white;
+}
+
+header{
+padding:40px;
+text-align:center;
+background:#0e3155;
+}
+
+h1{
+font-size:42px;
+margin-bottom:10px;
+}
+
+.subtitle{
+opacity:.8;
+}
+
+.container{
+max-width:1400px;
+margin:auto;
+padding:40px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:25px;
+}
+
+.card{
+background:#173b61;
+padding:30px;
+border-radius:15px;
+cursor:pointer;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+background:#1f4f82;
+}
+
+.card h2{
+margin-bottom:15px;
+}
+
+.card p{
+opacity:.85;
+line-height:1.5;
+}
+
+.back{
+margin:20px;
+display:inline-block;
+padding:12px 20px;
+background:white;
+color:#071d33;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
+}
+
+</style>
+</head>
+
+<body>
+
+<a href="experience.html" class="back">
+← Back
+</a>
+
+<header>
+
+<h1>Stamping Engineering</h1>
+
+<div class="subtitle">
+Explore our stamping engineering capabilities
+</div>
+
+</header>
+
+<div class="container">
+
+<div class="grid">
+
+<div class="card"
+onclick="location.href='buypart.html'">
+
+<h2>Buy Part</h2>
+
+<p>
+Supplier management, conformity validation,
+assembly impact assessment and industrial follow-up.
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>Tooling Process</h2>
+
+<p>
+Feasibility validation, process definition and tooling delivery.
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>Geometrical Stamping</h2>
+
+<p>
+FMEA, geometrical convergence and product validation.
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>Capacity & Reliability</h2>
+
+<p>
+Capability studies, transfer scenarios and process optimization.
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>Cost Assistance</h2>
+
+<p>
+Cost monitoring, SAP activities and KPI analysis.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
