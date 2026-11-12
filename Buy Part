@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Buy Part Engineer</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI,sans-serif;
+}
+
+body{
+background:#071d33;
+color:white;
+}
+
+.back{
+display:inline-block;
+margin:20px;
+padding:12px 20px;
+background:white;
+color:#071d33;
+text-decoration:none;
+border-radius:10px;
+font-weight:bold;
+}
+
+.hero{
+padding:80px 40px;
+text-align:center;
+background:#0e3155;
+}
+
+.hero h1{
+font-size:48px;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:20px;
+opacity:.85;
+}
+
+.container{
+max-width:1400px;
+margin:auto;
+padding:50px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(400px,1fr));
+gap:30px;
+}
+
+.card{
+background:#173b61;
+padding:30px;
+border-radius:18px;
+}
+
+.card h2{
+margin-bottom:20px;
+color:#ffffff;
+}
+
+.card ul{
+padding-left:20px;
+line-height:1.8;
+}
+
+.value{
+background:#0e5487;
+}
+
+.placeholder{
+height:250px;
+display:flex;
+align-items:center;
+justify-content:center;
+border:2px dashed rgba(255,255,255,.3);
+border-radius:12px;
+margin-top:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<a href="stamping.html" class="back">
+← Back to Stamping
+</a>
+
+<section class="hero">
+
+<h1>Buy Part Engineer</h1>
+
+<p>
+External Parts Quality, Supplier Deliverables,
+Industrial Validation & Assembly Impact Assessment
+</p>
+
+</section>
+
+<div class="container">
+
+<div class="grid">
+
+<div class="card">
+
+<h2>What We Do</h2>
+
+<ul>
+<li>Follow up of general schedule & the leading of the robustness of external parts</li>
+
+<li>Participation to the specific project meetings & the follow up of the supplier deliverables</li>
+
+<li>Follow up of the representativeness of the batches, management of FETE sheets</li>
+
+<li>Insures the geometric and aspect conformity of external parts</li>
+
+<li>Validate the impact to the assembly process</li>
+
+</ul>
+
+</div>
+
+<div class="card value">
+
+<h2>Business Value</h2>
+
+<ul>
+<li>Supplier performance monitoring</li>
+
+<li>Product conformity validation</li>
+
+<li>Assembly risk reduction</li>
+
+<li>Industrial robustness improvement</li>
+
+<li>Quality assurance before SOP</li>
+
+</ul>
+
+</div>
+
+</div>
+
+<div class="grid" style="margin-top:40px;">
+
+<div class="card">
+
+<h2>Project Example</h2>
+
+<div class="placeholder">
+Image Placeholder
+</div>
+
+</div>
+
+<div class="card">
+
+<h2>Future Video Demonstration</h2>
+
+<div class="placeholder">
+Video Placeholder
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
