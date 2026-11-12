@@ -1,33 +1,115 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Smart Manufacturing & IS4.0</title>
+
 <style>
-body{
+
+*{
 margin:0;
-font-family:Segoe UI;
-background:#0d2238;
-color:white;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI,sans-serif;
+}
+
+body{
+height:100vh;
+background:linear-gradient(135deg,#0b1f33,#173b61);
 display:flex;
 justify-content:center;
 align-items:center;
-height:100vh;
+color:white;
 text-align:center;
 }
-button{
-padding:15px 30px;
-font-size:20px;
-cursor:pointer;
+
+.container{
+max-width:900px;
+padding:40px;
 }
+
+h1{
+font-size:60px;
+margin-bottom:20px;
+}
+
+.subtitle{
+font-size:24px;
+margin-bottom:50px;
+opacity:.9;
+}
+
+.stats{
+display:flex;
+justify-content:center;
+gap:50px;
+margin-bottom:60px;
+}
+
+.stat{
+font-size:28px;
+}
+
+.stat span{
+display:block;
+font-size:18px;
+opacity:.8;
+}
+
+button{
+background:white;
+color:#0b1f33;
+padding:18px 50px;
+font-size:22px;
+border:none;
+border-radius:12px;
+cursor:pointer;
+font-weight:bold;
+transition:.3s;
+}
+
+button:hover{
+transform:scale(1.05);
+}
+
 </style>
+
 </head>
+
 <body>
 
-<div>
-<h1>SMART MANUFACTURING & IS4.0</h1>
-<p>Engineering Excellence</p>
+<div class="container">
 
-<button>START THE TOUR</button>
+<h1>SMART MANUFACTURING & IS4.0</h1>
+
+<div class="subtitle">
+Capgemini Engineering Manufacturing Experience Center
+</div>
+
+<div class="stats">
+
+<div class="stat">
+177+
+<span>Experts</span>
+</div>
+
+<div class="stat">
+50+
+<span>Projects</span>
+</div>
+
+<div class="stat">
+5
+<span>Domains</span>
+</div>
+
+</div>
+
+<button onclick="window.location.href='experience.html'">
+START THE TOUR
+</button>
+
 </div>
 
 </body>
